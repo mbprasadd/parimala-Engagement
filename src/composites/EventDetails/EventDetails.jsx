@@ -4,23 +4,23 @@ import styles from './styles.module.css'
 
 const EventDetails = () => {
   const venueUrl =
-    'https://www.google.com/maps/place/Salman+Al-Farisi+Mosque/@-6.188782,106.875347,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69f4ee174c6c43:0xa8bb47340df92921!8m2!3d-6.1888751!4d106.8774866'
+    'https://www.google.com/maps/place/Velpur+Rd,+Tanuku,+Andhra+Pradesh/@16.744639,81.6773544,1243m/data=!3m1!1e3!4m6!3m5!1s0x3a37b7e2ab620641:0xfd8d32ce2cdd175c!8m2!3d16.7454594!4d81.6791569!16s%2Fg%2F1vd3t69l?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D'
   const eventDetails = [
     {
-      name: 'Akad Nikah',
-      date: 'Saturday, 27th November 2021',
-      time: '08:00 - 09:00',
-      venue: 'Aula Masjid Salman Al-Farisi',
+      name: 'Engagement',
+      date: 'Wednesdat, 11th December 2024',
+      time: '09:00 - 1:00',
+      venue: 'Velpur, Tanuku',
       address:
-        'Jl. Komp. Bulog Jl. H. Ten Raya No.147, RT.14/RW.7, Kayu Putih,  Kec. Pulo Gadung, Kota Jakarta Timur',
+        'velipur, Tanuku, West Godawari, AP 534211',
     },
     {
-      name: 'Resepsi Nikah',
-      date: 'Saturday, 27th November 2021',
-      time: '11:00 - 13:00',
-      venue: 'Aula Masjid Salman Al-Farisi',
+      name: 'Lunch',
+      date: 'Wednesdat, 11th December 2024',
+      time: '01:00 - 03:00',
+      venue: 'At Our Home',
       address:
-        'Jl. Komp. Bulog Jl. H. Ten Raya No.147, RT.14/RW.7, Kayu Putih,  Kec. Pulo Gadung, Kota Jakarta Timur',
+        'velipur, Tanuku, West Godawari, AP 534211',
     },
   ]
 
@@ -50,7 +50,7 @@ const EventDetails = () => {
         <div>
           <GoogleMapLocation />
         </div>
-        <Button text="Lihat lokasi" onClick={() => window.open(venueUrl)} />
+        <Button text="Location" onClick={() => window.open(venueUrl)} />
       </div>
     </div>
   )

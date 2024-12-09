@@ -8,14 +8,14 @@ const WelcomePage = () => {
     <div className={styles.container}>
       <div className={styles.separatorContainer}>
         <HeaderSeparator />
-        <p className={styles.textName}>Arifin &amp; Fitria</p>
+        <p className={styles.textName}>Durga Prasad &amp; Parimala</p>
         <HeaderSeparator />
       </div>
       <p className={styles.invitationText}>
-        We are getting married, and we want you <br /> to be part of our special
+        We are getting Engaged, and we want you <br /> to be part of our special
         day
       </p>
-      <p className={styles.invitationDate}>Saturday, 27th November 2021</p>
+      <p className={styles.invitationDate}>Wednesday, 11th December 2024</p>
       <div className={styles.buttonContainer}>
         <Button text="Save the Date!" />
       </div>

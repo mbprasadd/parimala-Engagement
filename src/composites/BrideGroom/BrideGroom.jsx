@@ -6,6 +6,8 @@ import { ProfileCard } from '../../components'
 import styles from './styles.module.css'
 import { data } from './data'
 
+const img = "https://thumbs.dreamstime.com/b/cartoon-characters-indian-bride-groom-isolated-white-background-cartoon-characters-indian-bride-groom-isolated-321514345.jpg"
+
 const BrideGroom = () => {
   return (
     <div className={styles.container}>
@@ -14,7 +16,7 @@ const BrideGroom = () => {
         {data.map((el, idx) => (
           <React.Fragment>
             <ProfileCard
-              img={el.img}
+              img={img}
               title={el.title}
               name={el.name}
               description={el.description}

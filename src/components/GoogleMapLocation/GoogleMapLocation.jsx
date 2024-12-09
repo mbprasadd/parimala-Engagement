@@ -12,12 +12,12 @@ const GoogleMapLocation = () => {
         scrollWheelZoom={true}
       >
         <TileLayer
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          
+          url="https://www.shutterstock.com/image-vector/pin-point-logo-can-be-600nw-1679653036.jpg"
         />
         <Marker position={[-6.188749993366775, 106.87747132606388]}>
           <Tooltip direction="top" offset={[0, -10]} opacity={1} permanent>
-            Masjid Salman Al-Farisi
+            Velpur, Tanuku
           </Tooltip>
         </Marker>
       </MapContainer>

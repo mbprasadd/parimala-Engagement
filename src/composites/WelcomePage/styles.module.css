@@ -6,7 +6,7 @@
 
   height: 100vh;
   background: linear-gradient(rgba(91, 61, 44, 0.92), rgba(91, 61, 44, 0.92)),
-    url('../../assets/header_img.jpeg');
+    url('https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/bride-of-christ-danny-hahlbohm.jpg');
   background-repeat: no-repeat;
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -28,7 +28,7 @@
 .textName {
   color: #ffffff;
   font-family: 'Kaushan Script', cursive;
-  font-size: 120px;
+  font-size: 50px;
   text-align: center;
 }
 

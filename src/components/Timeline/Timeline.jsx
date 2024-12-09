@@ -4,8 +4,8 @@ import './styles.css'
 const Timeline = ({ data }) => {
   return (
     <div className="timeline-container">
-      <div className="opening-timeline">
-        <h2>Sepenggal Kisah Arifin &amp; Fitria</h2>
+      {/* <div className="opening-timeline">
+        <h2>PARIMALA &amp; Durga Prasad</h2>
       </div>
       <div className="timeline">
         {data.map((x) => {
@@ -21,7 +21,7 @@ const Timeline = ({ data }) => {
             </div>
           )
         })}
-      </div>
+      </div> */}
     </div>
   )
 }

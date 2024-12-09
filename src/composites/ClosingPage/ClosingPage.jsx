@@ -7,21 +7,17 @@ const ClosingPage = () => {
     <div className="closing-container">
       <hr />
       <p className="closing-surah">
-        "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
-        pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan
-        merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan
-        sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat
-        tanda-tanda (kebesaran Allah) bagi kaum yang berpikir” (QS. Ar Rum ayat
-        21)
+      Praise the Lord This is from the Lord. Gen 24:50 "Give thanks to the Lord for he is good! His faithful love endures forever I ch 18:34 Save The Date: 11-12-2024 Time 10:00 
+      <br/> Parimala & MR Durga Prasad INVITES YOU IN THE Engagement CEREMONY
       </p>
       <hr />
       <div className="cl-last-container">
         <p>
-          Bismillah~ <br /> <br />
-          Mohon doanya yaa semua...
+          Parise The Lord~ <br /> <br />
+          {/* REQUEST THE HONOUR OF YOUR PRESENCE AT THE Engagement With Your CHILDREN */}
         </p>
         <div>
-          <img src={closingImg} alt="Closing Prewed" />
+          <img src="https://png.pngtree.com/png-vector/20240814/ourmid/pngtree-indian-christian-wedding-couple-clipart-bride-in-white-gown-groom-suit-png-image_13482034.png" alt="Closing Prewed" />
         </div>
       </div>
     </div>

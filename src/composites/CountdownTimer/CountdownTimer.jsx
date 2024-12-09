@@ -9,7 +9,7 @@ const CountdownTimer = () => {
 
   useEffect(() => {
     var x = setInterval(function () {
-      const countDownDate = new Date('Nov 27, 2021 08:00:00').getTime()
+      const countDownDate = new Date('Dec 11, 2024 08:00:00').getTime()
 
       // Get today's date and time
       var now = new Date().getTime()
@@ -43,7 +43,7 @@ const CountdownTimer = () => {
 
   return (
     <div className={styles.container}>
-      <p className={styles.countdownDate}>27 November 2021</p>
+      <p className={styles.countdownDate}>11 December 2024</p>
       <div className={styles.countdownContainer}>
         {renderCountDownValues(days, 'Days')}
         <p className={styles.slash}>/</p>

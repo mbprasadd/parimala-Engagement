@@ -1,4 +1,4 @@
-# Wedding Invitation Website for Fitria & Arifin
+# Wedding Invitation Website for Parimala & AriDurga Prasadfin
 
 P.S:
 

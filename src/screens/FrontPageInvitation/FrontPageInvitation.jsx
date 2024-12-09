@@ -18,7 +18,7 @@ const FrontPageInvitation = ({ setInvitationOpen }) => {
       <div className={styles.container}>
         <div className={styles.separatorContainer}>
           <HeaderSeparator />
-          <p className={styles.textName}>Arifin &amp; Fitria</p>
+          <p className={styles.textName}>Durga Prasad &amp; Parimala</p>
           <HeaderSeparator />
         </div>
         <p className={styles.invitationText}>
@@ -29,7 +29,7 @@ const FrontPageInvitation = ({ setInvitationOpen }) => {
               <br />
             </span>
           )}
-          We are getting married, and we want you <br /> to be part of our
+          We are getting Engaged, and we want you <br /> to be part of our
           special day
         </p>
         <div className={styles.buttonContainer}>

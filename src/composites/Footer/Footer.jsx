@@ -6,9 +6,9 @@ import './styles.css'
 const Footer = () => {
   return (
     <div className="footer-container">
-      <p>
+      {/* <p>
         Designed &amp; Made with <FaHeart className="icon" /> <br />
-        by Muhammad Arifin &amp; Fitria Andaryani
+        by Muhammad Durga Prasad &amp; Parimala
       </p>
       <p>
         See code on{' '}
@@ -19,7 +19,7 @@ const Footer = () => {
         >
           <FaGithub className="icon" />
         </a>
-      </p>
+      </p> */}
     </div>
   )
 }
